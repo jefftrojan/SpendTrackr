@@ -1,4 +1,5 @@
 import { Button, Container, Stack } from 'react-bootstrap';
+import BudgetCard from './components/BudgetCard';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
        
        >
 
+        <BudgetCard name='Food' amount={1800} max={2000} />
+       
        </div>
     </Container>
   );
