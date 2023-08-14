@@ -9,3 +9,4 @@ export const getProgressBarVariant = (amount, max) => {
     if (ratio < .75) return 'warning'
     return 'danger'
 }
+

@@ -14,16 +14,16 @@ function App() {
        style={
         {
           display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
           gap: '1rem',
-          alignItems: 'flex-start'
+          alignItems: 'flex-start',
         }
        }
        
        
        >
 
-        <BudgetCard name='Food' amount={1800} max={2000} />
+        <BudgetCard name='Food' amount={2800} max={2000} />
        
        </div>
     </Container>
