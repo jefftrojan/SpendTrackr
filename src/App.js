@@ -24,6 +24,10 @@ function App() {
        >
 
         <BudgetCard name='Food' amount={2800} max={2000} />
+        <BudgetCard name='Rent' amount={500} max={2000} />
+        <BudgetCard name='Fun' amount={1000} max={2000} />
+
+
        
        </div>
     </Container>
