@@ -17,7 +17,8 @@ This application is built to help users like Eric manage their financial transac
 - Frontend: ReactJS
 - State Management: Local Storage (for simplicity and quick development)
 - Styling: CSS
-- Charts: You can use libraries like Chart.js
+- Charts: chart.js
+
 
 **Getting Started:** 
  `You can use the live link ` or
@@ -27,7 +28,7 @@ This application is built to help users like Eric manage their financial transac
 3. Use `npm start` to launch the application in your browser.
 
 **Usage:**
-1. Register your various financial accounts by adding them to the app.
+1. Monitor your various financial accounts by adding them to the app.
 2. Record incoming and outgoing transactions, specifying the account, amount, date, and category.
 3. Set a budget limit to monitor your spending.
 4. Analyze your financial data through the visual summary and reports.
@@ -36,12 +37,11 @@ This application is built to help users like Eric manage their financial transac
 This web application can be deployed using platforms like Netlify, Vercel, or GitHub Pages. You can follow their documentation to learn how to deploy React applications.
 
 **Important Note:**
-Remember that this application currently uses local storage for data storage. While this is suitable for short-term development and testing, it may not provide the robustness and scalability of a dedicated database in the long run. If you plan to scale this application for extended use, consider transitioning to a proper database solution.
+It's important to acknowledge that this application's current data storage mechanism relies on local storage. While adept for short-term development and swift iterations, local storage may not embody the robustness and scalability required for prolonged and extensive use
 
-Feel free to modify, enhance, and contribute to this project as needed. Happy coding!
 
 **Deployment Link:**
-[]
+[https://taskforce-coa-wallet.vercel.app/](https://taskforce-coa-wallet.vercel.app/)
 
 For any inquiries or feedback, feel free to contact [Your Contact Information].
 
