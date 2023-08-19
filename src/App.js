@@ -29,13 +29,10 @@ function App() {
         setShowAddExpenseModal(true);
         break;
       case "Budget":
-        // Handle the Budget option, e.g., set relevant state or show modal
+      
         break;
       case "Create Budget":
         setShowAddBudgetModal(true);
-        break;
-      case "About":
-        // Handle the About option, e.g., navigate to the About page
         break;
       default:
         break;
