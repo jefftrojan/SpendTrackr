@@ -1,4 +1,4 @@
-**Expense Tracker Web Application - README**
+## Expense Tracker Web App
 
 This application is built to help users like Eric manage their financial transactions efficiently. Let's dive into what you can expect from this project.
 
