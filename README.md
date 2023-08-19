@@ -16,6 +16,12 @@ This application is built to help users like Eric manage their financial transac
 - Yellow means its on the average and 
 - Red means the budget limit has been exceeded
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented features:
+
+<img src='https://github.com/jefftrojan/web10_prework/blob/49c3d918a4462430d6cc8a2a5f50d56e63593ea3/assets/mygif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 **Technologies Used:**
 - Frontend: ReactJS
