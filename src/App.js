@@ -9,7 +9,6 @@ import TotalBudgetCard from "./components/TotalBudgetCard"
 import { useState } from "react"
 import { UNCATEGORIZED_BUDGET_ID, useBudgets } from "./contexts/BudgetsContext"
 import PreLoader from "./components/preloader"
-import ChartPage from "./components/ChartPage"
 
 function App() {
   const [showAddBudgetModal, setShowAddBudgetModal] = useState(false)
