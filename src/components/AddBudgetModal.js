@@ -23,8 +23,8 @@ export default function AddBudgetModal({ show, handleClose }) {
         </Modal.Header>
         <Modal.Body>
           <Form.Group className="mb-3" controlId="name">
-            <Form.Label>Name</Form.Label>
-            <Form.Control ref={nameRef} type="text" required />
+            <Form.Label>Account Type</Form.Label>
+            <Form.Control placeholder="E.g Bank Account, Momo, Virtual Card..."ref={nameRef} type="text" required />
           </Form.Group>
           <Form.Group className="mb-3" controlId="max">
             <Form.Label>Maximum Spending</Form.Label>
@@ -34,6 +34,7 @@ export default function AddBudgetModal({ show, handleClose }) {
               required
               min={0}
               step={0.01}
+              placeholder="Maximum amount that can be spent"
             />
           </Form.Group>
           <div className="d-flex justify-content-end">

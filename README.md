@@ -1,35 +1,38 @@
 **Expense Tracker Web Application - README**
 
-This application is built to help users like Eric manage their financial transactions efficiently. Whether you're tracking income, expenses, or both, this app will provide you with the tools to stay on top of your financial game. Let's dive into what you can expect from this project.
+This application is built to help users like Eric manage their financial transactions efficiently. Let's dive into what you can expect from this project.
 
 **Functionalities:**
  **Transaction Tracking:** Record all your financial transactions across various accounts, including bank accounts, mobile money accounts, and cash. 
 
  **Budget Control:** Set a budget limit to avoid overspending. Once your spending exceeds the set budget, the application will notify you. The budget card will turn red to visually indicate this situation.
 
- **Categorization:** Create categories and subcategories to better organize your expenses. Assign transactions to specific categories or subcategories to understand where your money is going.
+ **Categorization:** Create Account categories to better organize your expenses. Assign budgets to specific categories to understand where your money is going.
 
- **Expense-Category Linking:** Link expenses to related categories or subcategories for better classification and analysis. This feature enhances the accuracy of your financial data.
+ **Expense-Category Linking:** Link expenses to related categories for better classification and analysis. This feature enhances the accuracy of your financial data.
 
- **Visual Summary:** View a summarized visualization of your transactions. Graphs and charts will help you quickly grasp your financial status and trends.
+ **Visual Summary:** View a summarized visualization of your transactions with the progress bar. 
+- Blue progress signifies an Okay, 
+- Yellow means its on the average and 
+- Red means the budget limit has been exceeded
+
 
 **Technologies Used:**
 - Frontend: ReactJS
-- State Management: Local Storage (for simplicity and quick development)
+- Data and Storage: Local Storage/Context API
 - Styling: CSS
-- Charts: chart.js
 
 
 **Getting Started:** 
- `You can use the live link ` or
+ You can use the live link [https://taskforce-coa-wallet.vercel.app/](https://taskforce-coa-wallet.vercel.app) or
 
 1. Clone this repository to your local machine.
-2. Navigate to the project directory and run `npm install` to install the required dependencies.
+2. Navigate to the project directory and run `npm install` to install the required dependencies. 
 3. Use `npm start` to launch the application in your browser.
 
 **Usage:**
-1. Monitor your various financial accounts by adding them to the app.
-2. Record incoming and outgoing transactions, specifying the account, amount, date, and category.
+1. Monitor your various financial accounts by adding them to the application.
+2. Record incoming and outgoing transactions, specifying the budget account and the limits for the account
 3. Set a budget limit to monitor your spending.
 4. Analyze your financial data through the visual summary and reports.
 
@@ -43,8 +46,6 @@ It's important to acknowledge that this application's current data storage mecha
 **Deployment Link:**
 [https://taskforce-coa-wallet.vercel.app/](https://taskforce-coa-wallet.vercel.app/)
 
-For any inquiries or feedback, feel free to contact [Your Contact Information].
 
 ---
 
-Please replace `[Your Name]`, `[Your Contact Information]`, and `[Insert Deployment Link Here]` with appropriate values.

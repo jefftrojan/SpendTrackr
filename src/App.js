@@ -9,6 +9,7 @@ import TotalBudgetCard from "./components/TotalBudgetCard"
 import { useState } from "react"
 import { UNCATEGORIZED_BUDGET_ID, useBudgets } from "./contexts/BudgetsContext"
 import PreLoader from "./components/preloader"
+import ChartPage from "./components/ChartPage"
 
 function App() {
   const [showAddBudgetModal, setShowAddBudgetModal] = useState(false)
@@ -54,6 +55,7 @@ function App() {
             <Nav className="me-auto d-flex justify-content-center align-items-center">
               <Nav.Link onClick={() => handleNavLinkClick("Add")}>Add an Expense</Nav.Link>
               <Nav.Link onClick={() => handleNavLinkClick("Create Budget")}>Account Budget</Nav.Link>
+              
             </Nav>
             
           </Navbar.Collapse>
@@ -61,7 +63,7 @@ function App() {
       </Navbar>
         <h1 className="text-center mb-4">Budget Tracker</h1>
         <Button variant="primary" onClick={() => setShowAddBudgetModal(true)}>
-            Add Budget
+            Create New Budget
           </Button>
         <div
           style={{

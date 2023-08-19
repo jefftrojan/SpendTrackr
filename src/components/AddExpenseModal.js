@@ -31,11 +31,12 @@ export default function AddExpenseModal({
         <Modal.Body>
           <Form.Group className="mb-3" controlId="description">
             <Form.Label>Description</Form.Label>
-            <Form.Control ref={descriptionRef} type="text" required />
+            <Form.Control ref={descriptionRef} type="text" placeholder="E.g Food, Entertainment, Transport..." required />
           </Form.Group>
           <Form.Group className="mb-3" controlId="amount">
             <Form.Label>Amount</Form.Label>
             <Form.Control
+              placeholder="Amount spent"
               ref={amountRef}
               type="number"
               required
