@@ -1,17 +1,16 @@
 ## Expense Tracker Web App
 
-This application is built to help users like Eric manage their financial transactions efficiently. Let's dive into what you can expect from this project.
 
 **Functionalities:**
  **Transaction Tracking:** Record all your financial transactions across various accounts, including bank accounts, mobile money accounts, and cash. 
 
  **Budget Control:** Set a budget limit to avoid overspending. Once your spending exceeds the set budget, the application will notify you. The budget card will turn red to visually indicate this situation.
 
- **Categorization:** Create Account categories to better organize your expenses. Assign budgets to specific categories to understand where your money is going.
+ **Categorization:** Create Account categories to organize your expenses better. Assign budgets to specific categories to understand where your money is going.
 
  **Expense-Category Linking:** Link expenses to related categories for better classification and analysis. This feature enhances the accuracy of your financial data.
 
- **Visual Summary:** View a summarized visualization of your transactions with the progress bar. 
+ **Visual Summary:** View your transactions' summarised visualisation with the progress bar. 
 - Blue progress signifies an Okay, 
 - Yellow means its on the average and 
 - Red means the budget limit has been exceeded
