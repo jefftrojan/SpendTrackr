@@ -29,7 +29,7 @@ Here's a walkthrough of implemented features:
 
 
 **Getting Started:** 
- You can use the live link [https://taskforce-coa-wallet.vercel.app/](https://taskforce-coa-wallet.vercel.app) or
+ You can use the live link [https://spendtrackr.vercel.app/](https://spendtrackr.vercel.app) or
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory and run `npm install` to install the required dependencies. 
@@ -49,7 +49,7 @@ It's important to acknowledge that this application's current data storage mecha
 
 
 **Deployment Link:**
-[https://taskforce-coa-wallet.vercel.app/](https://taskforce-coa-wallet.vercel.app/)
+[https://spendtrackr.vercel.app/](https://spendtrackr.vercel.app/)
 
 
 ---
